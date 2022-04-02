@@ -21,7 +21,7 @@ namespace Vax
         private void loadBtn_Click(object sender, EventArgs e)
         {
             map.MapProvider = GMapProviders.GoogleMap;
-
+            map.Zoom = 10;
             
         }
     }
