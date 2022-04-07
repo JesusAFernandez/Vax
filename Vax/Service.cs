@@ -9,11 +9,12 @@ namespace Vax
     public class Vax
     {
         public int K { get; set; }
+        public Individual[] individuals { get; set; }
     }
     public class Individual
     {
         public double lat { get; set; }
-        public double lon { get; set; }
+        public double lng { get; set; }
         public string name { get; set; }
         public Neighbor [] neighbor { get; set; }
 
